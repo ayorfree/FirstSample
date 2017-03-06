@@ -4,7 +4,7 @@ import java.util.*;
 /**
  * Created by zhangjiyun on 2017/3/5.
  */
-public class EmployeeTest {
+/*public class EmployeeTest {
     public static void main(String[] args)
     {
         Employee[] staff = new Employee[3];
@@ -22,7 +22,7 @@ public class EmployeeTest {
     }
 }
 
-    class Employee
+    /*class Employee
     {
         private String name;
         private double salary;
@@ -56,3 +56,4 @@ public class EmployeeTest {
             salary += raise;
         }
     }
+*/
