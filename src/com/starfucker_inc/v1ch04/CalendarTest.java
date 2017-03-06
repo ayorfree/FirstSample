@@ -1,4 +1,4 @@
-package com.company;
+package com.starfucker_inc.v1ch04;
 
 import java.text.DateFormatSymbols;
 import java.util.*;

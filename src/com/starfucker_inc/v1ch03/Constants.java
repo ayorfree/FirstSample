@@ -1,4 +1,4 @@
-package com.company;
+package com.starfucker_inc.v1ch03;
 
 /**
  * Created by zhangjiyun on 2017/3/2.

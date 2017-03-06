@@ -1,4 +1,4 @@
-package com.company;
+package com.starfucker_inc.v1ch03;
 
 import static java.lang.System.out;
 

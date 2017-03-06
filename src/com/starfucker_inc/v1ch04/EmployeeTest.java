@@ -1,6 +1,5 @@
-package com.company;
+package com.starfucker_inc.v1ch04;
 
-import java.util.*;
 /**
  * Created by zhangjiyun on 2017/3/5.
  */
