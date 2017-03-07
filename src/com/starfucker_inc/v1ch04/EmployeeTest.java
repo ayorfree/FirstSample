@@ -1,9 +1,11 @@
 package com.starfucker_inc.v1ch04;
 
+import java.util.*;
+
 /**
  * Created by zhangjiyun on 2017/3/5.
  */
-/*public class EmployeeTest {
+public class EmployeeTest {
     public static void main(String[] args)
     {
         Employee[] staff = new Employee[3];
@@ -21,38 +23,3 @@ package com.starfucker_inc.v1ch04;
     }
 }
 
-    /*class Employee
-    {
-        private String name;
-        private double salary;
-        private Date hireDay;
-
-        public Employee(String n, double s, int year, int month, int day)
-        {
-            name = n;
-            salary = s;
-
-            GregorianCalendar calendar = new GregorianCalendar(year, month - 1, day);
-            hireDay = calendar.getTime();
-        }
-
-        public String getName()
-        {
-            return name;
-        }
-
-        public double getSalary() {
-            return salary;
-        }
-
-        public Date getHireDay() {
-            return hireDay;
-        }
-
-        public void raiseSalary(double byPercent)
-        {
-            double raise = salary * byPercent / 100;
-            salary += raise;
-        }
-    }
-*/
