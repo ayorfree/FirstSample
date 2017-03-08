@@ -1,29 +1,21 @@
-package com.testing;
+package com.starfucker_inc.v1ch05.abstractClasses;
 
 import java.util.Date;
 import java.util.GregorianCalendar;
 
 /**
- * @version 3.8
- * @author ayor
  * Created by zhangjiyun on 2017/3/8.
  */
-public class Employee {
-    private String name;
+public class Employee extends Person {
     private double salary;
     private Date hireDay;
 
     public Employee(String n, double s, int year, int month, int day)
     {
-        name = n;
+        super(n);
         salary = s;
         GregorianCalendar calendar = new GregorianCalendar(year, month - 1, day);
         hireDay = calendar.getTime();
-    }
-
-    public String getName()
-    {
-        return name;
     }
 
     public double getSalary()
@@ -34,6 +26,11 @@ public class Employee {
     public Date getHireDay()
     {
         return hireDay;
+    }
+
+    public String getDescription()
+    {
+        return String.format("an employee with a salary of $%.2f", salary);
     }
 
     public void raiseSalary(double byPercent)
