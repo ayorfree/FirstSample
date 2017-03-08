@@ -3,6 +3,9 @@ package com.starfucker_inc.v1ch04;
 /**
  * Listing 4.4. ParamTest/ParamTest.java
  * This program demonstrates parameter passing in Java.
+ * • A method cannot modify a parameter of a primitive type (that is, numbers or boolean values).
+ * • A method can change the state of an object parameter.
+ * • A method cannot make an object parameter refer to a new object.
  * Created by zhangjiyun on 2017/3/6.
  */
 public class ParamTest {
