@@ -1,4 +1,4 @@
-package com.testing.sbstractClass;
+package com.testing.inheritance_t;
 
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -6,16 +6,22 @@ import java.util.GregorianCalendar;
 /**
  * Created by zhangjiyun on 2017/3/9.
  */
-public class Employee extends Person {
+public class Employee {
+    private String name;
     private double salary;
     private Date hireDay;
 
     public Employee(String n, double s, int year, int month, int day)
     {
-        super(n);
+        name = n;
         salary = s;
-        GregorianCalendar calendar = new GregorianCalendar(year, month - 1, day);
+        GregorianCalendar calendar = new GregorianCalendar(year, month- 1, day);
         hireDay = calendar.getTime();
+    }
+
+    public String getName()
+    {
+        return name;
     }
 
     public double getSalary()
@@ -28,8 +34,9 @@ public class Employee extends Person {
         return hireDay;
     }
 
-    public String getDescription()
+    public void raiseSalary(double byPercent)
     {
-        return String.format("an employee with a salary of $%.2f", salary);
+        double raise = salary * byPercent / 100;
+        salary += raise;
     }
 }

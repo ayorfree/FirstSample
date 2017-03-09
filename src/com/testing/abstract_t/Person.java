@@ -1,17 +1,14 @@
-package com.testing.sbstractClass;
+package com.testing.abstract_t;
 
 /**
- * @version
- * @author
  * Created by zhangjiyun on 2017/3/9.
  */
 public abstract class Person {
-    public abstract String getDescription();
     private String name;
 
-    public Person(String x)
+    public Person(String n)
     {
-        name = x;
+        name = n;
     }
 
     public String getName()
@@ -19,4 +16,5 @@ public abstract class Person {
         return name;
     }
 
+    public abstract String getDescription();
 }
