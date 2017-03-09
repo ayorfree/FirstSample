@@ -1,29 +1,21 @@
-package com.testing;
+package com.testing.sbstractClass;
 
 import java.util.Date;
 import java.util.GregorianCalendar;
 
 /**
- * @version 3.8
- * @author ayor
- * Created by zhangjiyun on 2017/3/8.
+ * Created by zhangjiyun on 2017/3/9.
  */
-public class Employee {
-    private String name;
+public class Employee extends Person {
     private double salary;
     private Date hireDay;
 
     public Employee(String n, double s, int year, int month, int day)
     {
-        name = n;
+        super(n);
         salary = s;
         GregorianCalendar calendar = new GregorianCalendar(year, month - 1, day);
         hireDay = calendar.getTime();
-    }
-
-    public String getName()
-    {
-        return name;
     }
 
     public double getSalary()
@@ -36,9 +28,8 @@ public class Employee {
         return hireDay;
     }
 
-    public void raiseSalary(double byPercent)
+    public String getDescription()
     {
-        double raise = salary * byPercent / 100;
-        salary += raise;
+        return String.format("an employee with a salary of $%.2f", salary);
     }
 }
