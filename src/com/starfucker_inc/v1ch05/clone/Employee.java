@@ -7,7 +7,7 @@ import java.util.GregorianCalendar;
  * Created by zhangjiyun on 2017/3/11.
  */
 
-public class Employee implements Cloneable
+class Employee implements Cloneable
 {
     private String name;
     private double salary;
@@ -23,7 +23,7 @@ public class Employee implements Cloneable
     public Employee clone() throws CloneNotSupportedException
     {
         Employee cloned = (Employee) super.clone();
-        cloned.hireDay = (Date)hireDay.clone();
+        cloned.hireDay = (Date) hireDay.clone();
 
         return cloned;
     }
@@ -42,6 +42,7 @@ public class Employee implements Cloneable
 
     public String toString()
     {
-        return "Employee[name=" + name + ",salary=" + salary + ",hireDay=" + salary +"]";
+        return "Employee[name=" + name +",salary=" + salary +",hireDay" + hireDay +"]";
     }
+
 }
