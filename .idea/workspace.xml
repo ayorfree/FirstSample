@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7def1e0-36d5-4554-be0f-c4ec688a7517" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch05/anonymousInnerClass/AnoymousInnerClassTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -793,7 +792,7 @@
       <workItem from="1488543816830" duration="44984000" />
       <workItem from="1488804628154" duration="714000" />
       <workItem from="1488805450161" duration="27031000" />
-      <workItem from="1489049197594" duration="39023000" />
+      <workItem from="1489049197594" duration="39067000" />
     </task>
     <task id="LOCAL-00001" summary="FirstSample &amp; Constants-1">
       <created>1488444438853</created>
@@ -928,11 +927,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489285378718</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="2017.03.12-3">
+      <created>1489289530415</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1489289530415</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139823000" />
+    <option name="totallyTimeSpent" value="139867000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
