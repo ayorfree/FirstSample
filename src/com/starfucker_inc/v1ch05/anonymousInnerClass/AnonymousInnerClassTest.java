@@ -11,28 +11,21 @@ import java.util.Date;
  * @version 3.12.2017
  * @author ayorfree
  */
-public class AnoymousInnerClassTest {
+public class AnonymousInnerClassTest
+{
     public static void main(String[] args)
     {
         TalkingClock clock = new TalkingClock();
-        clock.start(1000,true);
+        clock.start(1000, true);
 
-        JOptionPane.showMessageDialog(null, "Quit Program?");
+        JOptionPane.showMessageDialog(null, "Enough?");
         System.exit(0);
     }
 }
 
-/**
- * A clock that prints the time in regular intervals.
- */
-
 class TalkingClock
 {
-    /**
-     * @param intervals the interval between messages (in milliseconds)
-     * @param beep true if the clock should beep
-     */
-    public void start(int intervals, final boolean beep)
+    public void start(int interval, final boolean beep)
     {
         ActionListener listener = new ActionListener()
         {
@@ -43,7 +36,7 @@ class TalkingClock
                 if (beep) Toolkit.getDefaultToolkit().beep();
             }
         };
-        Timer t = new Timer(intervals, listener);
+        Timer t = new Timer(interval, listener);
         t.start();
     }
 }
