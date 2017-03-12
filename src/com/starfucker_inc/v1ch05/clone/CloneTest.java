@@ -14,8 +14,8 @@ public class CloneTest
             copy.raiseSalary(5);
             copy.setHireDay(2011, 3, 3);
 
-            System.out.println("orignial:" + original);
-            System.out.println("copy:" + copy);
+            System.out.println("orignial=" + original);
+            System.out.println("copy:=" + copy);
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
