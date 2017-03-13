@@ -1,9 +1,9 @@
 package com.testing.just_testing;
 
+
 import java.util.Date;
 import java.util.Locale;
-import java.util.Scanner;
-import java.io.*;
+
 
 /**
  * Created by zhangjiyun on 2017/3/13.
