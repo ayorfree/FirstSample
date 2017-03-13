@@ -16,7 +16,6 @@ public class Welcome
                 s) {
             System.out.print(f);
         }
-
     }
 }
 
