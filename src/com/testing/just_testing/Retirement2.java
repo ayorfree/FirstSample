@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by zhangjiyun on 2017/3/13.
  */
-public class retirement2
+public class Retirement2
 {
     public static void main(String[] args)
     {
@@ -29,6 +29,7 @@ public class retirement2
             years++;
             System.out.println("After " + years +", your retirement will be " + balance +" dollars. Do you want to retirement? Y/N?");
             input = in.next();
-        }while (input.equals("N"));
+        }
+        while (input.equals("N"));
     }
 }

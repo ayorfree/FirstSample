@@ -12,10 +12,10 @@ public class LotteryOddsDrawing
     {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("How many numbers you can draw?");
+        System.out.println("HOW MANY NUMBERS YOU CAN DRWA EACH TIME?");
         int k = in.nextInt();
 
-        System.out.println("What's the biggest number you can draw?");
+        System.out.println("BIGGEST NUMBER YOU CAN DRAW?");
         int n = in.nextInt();
 
         int[] numbers = new int[n];
@@ -25,13 +25,15 @@ public class LotteryOddsDrawing
 
         int[] results = new int[k];
         for (int i = 0; i < results.length; i++) {
-            results[i] = numbers[(int) (Math.random() * n)];
-            numbers[(int) (Math.random() * n)] = numbers[n-1];
+            int r = (int) (Math.random() * n);
+            results[i] = numbers[r];
+            numbers[r] = numbers[n - 1];
             n--;
         }
-        Arrays.sort(results);
-        System.out.println("May be your odd is " + Arrays.toString(results));
 
-        }
+        Arrays.sort(results);
+
+        System.out.println("May be the luck numbers is " + Arrays.toString(results));
+
     }
 }

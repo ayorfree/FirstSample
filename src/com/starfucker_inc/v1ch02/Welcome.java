@@ -1,4 +1,4 @@
-package com.starfucker_inc.v2ch01;
+package com.starfucker_inc.v1ch02;
 
 /**
  * Created by zhangjiyun on 2017/3/13.
