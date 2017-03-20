@@ -1,0 +1,1 @@
+Main-Class: com.starfucker_inc.v1ch10.resource.ResourceTest
