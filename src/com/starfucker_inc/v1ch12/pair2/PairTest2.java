@@ -35,7 +35,7 @@ class ArrayAlg
     }
 }
 
-class Pair<T>
+class Pair<T extends Comparable>
 {
     private T first;
     private T second;
