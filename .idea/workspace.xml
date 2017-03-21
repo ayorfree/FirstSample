@@ -5,11 +5,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch12/pair3/Employee.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch12/pair3/Manager.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch12/pair3/Pair.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch12/pair3/PairAlg.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch12/pair3/PairTest3.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch12/pair3/PairTest3.java" afterPath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch12/pair3/PairTest3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/testing/just_testing/MultiArrays.java" afterPath="$PROJECT_DIR$/src/com/testing/just_testing/MultiArrays.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -825,7 +822,7 @@
       <workItem from="1489405668605" duration="6714000" />
       <workItem from="1489412667936" duration="24998000" />
       <workItem from="1489647247115" duration="7927000" />
-      <workItem from="1490002722907" duration="18802000" />
+      <workItem from="1490002722907" duration="18818000" />
     </task>
     <task id="LOCAL-00001" summary="FirstSample &amp; Constants-1">
       <created>1488444438853</created>
@@ -1065,11 +1062,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490020968477</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="2017.03.16-generic/cc1">
+      <created>1490111536193</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1490111536193</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214132000" />
+    <option name="totallyTimeSpent" value="214148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
