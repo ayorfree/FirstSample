@@ -2,7 +2,6 @@ package com.starfucker_inc.v1ch12.pair4;
 
 import java.lang.reflect.*;
 import java.util.Arrays;
-import java.util.Objects;
 import java.util.Scanner;
 
 /**
@@ -14,6 +13,7 @@ public class GenericReflectionTest
 {
     public static void main(String[] args)
     {
+        // read class name from command line args or user input
         String name;
         if (args.length > 0) name = args[0];
         else
@@ -25,12 +25,11 @@ public class GenericReflectionTest
 
         try
         {
+            // print generic info for class and public methods
             Class<?> cl = Class.forName(name);
             printClass(cl);
-            for (Method m :
-                    cl.getDeclaredMethods()) {
+            for (Method m : cl.getDeclaredMethods())
                 printMethod(m);
-            }
         }
         catch (ClassNotFoundException e)
         {
@@ -41,14 +40,14 @@ public class GenericReflectionTest
     public static void printClass(Class<?> cl)
     {
         System.out.print(cl);
-        printTypes(cl.getTypeParameters(), "<", ",", ">", true);
+        printTypes(cl.getTypeParameters(), "<", ", ", ">", true);
         Type sc = cl.getGenericSuperclass();
         if (sc != null)
         {
             System.out.print(" extends ");
             printType(sc, false);
         }
-        printTypes(cl.getGenericInterfaces(), " implements" , ",", "", false);
+        printTypes(cl.getGenericInterfaces(), " implements ", ", ", "", false);
         System.out.println();
     }
 
@@ -57,21 +56,23 @@ public class GenericReflectionTest
         String name = m.getName();
         System.out.print(Modifier.toString(m.getModifiers()));
         System.out.print(" ");
-        printTypes(m.getTypeParameters(), "<", ",", ">", true);
+        printTypes(m.getTypeParameters(), "<", ", ", "> ", true);
 
         printType(m.getGenericReturnType(), false);
         System.out.print(" ");
         System.out.print(name);
         System.out.print("(");
-        printTypes(m.getGenericParameterTypes(), "", ",", "", false);
+        printTypes(m.getGenericParameterTypes(), "", ", ", "", false);
         System.out.println(")");
     }
 
-    public static void printTypes(Type[] types, String pre, String sep, String suf, boolean isDefinition)
+    public static void printTypes(Type[] types, String pre, String sep, String suf,
+                                  boolean isDefinition)
     {
-        if (pre.equals("extends") && Arrays.equals(types, new Type[] {Object.class})) return;
+        if (pre.equals(" extends ") && Arrays.equals(types, new Type[] { Object.class })) return;
         if (types.length > 0) System.out.print(pre);
-        for (int i = 0; i < types.length; i++) {
+        for (int i = 0; i < types.length; i++)
+        {
             if (i > 0) System.out.print(sep);
             printType(types[i], isDefinition);
         }
@@ -90,7 +91,7 @@ public class GenericReflectionTest
             TypeVariable<?> t = (TypeVariable<?>) type;
             System.out.print(t.getName());
             if (isDefinition)
-                printTypes(t.getBounds(), " extends ", " & ","", false);
+                printTypes(t.getBounds(), " extends ", " & ", "", false);
         }
         else if (type instanceof WildcardType)
         {
@@ -109,7 +110,7 @@ public class GenericReflectionTest
                 System.out.print(".");
             }
             printType(t.getRawType(), false);
-            printTypes(t.getActualTypeArguments(), "<", ",", ",", false);
+            printTypes(t.getActualTypeArguments(), "<", ", ", ">", false);
         }
         else if (type instanceof GenericArrayType)
         {
