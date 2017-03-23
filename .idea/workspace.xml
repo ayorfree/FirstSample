@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7def1e0-36d5-4554-be0f-c4ec688a7517" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/set/SetTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/set/alice30.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/treeset/Item.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/treeset/TreeSetTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,23 +25,30 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkedListTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/linkedList/LinkedListTest.java">
+      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/treeset/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            <state relative-caret-position="615">
+              <caret line="41" column="61" lean-forward="false" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/set/SetTest.java">
+      <file leaf-file-name="TreeSetTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/treeset/TreeSetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="94" lean-forward="false" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
+            <state relative-caret-position="375">
+              <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,8 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch05/objectAnalyzer/ObjectAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch05/objectAnalyzer/ObjectAnalyzerTest.java" />
         <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch05/reflection/ReflectionTest.java" />
         <option value="$PROJECT_DIR$/src/com/testing/objectAnalyzer/ObjectAnalyzerTest.java" />
         <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch05/interfaces/Employee.java" />
@@ -131,6 +136,8 @@
         <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch12/pair4/GenericReflectionTest.java" />
         <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/linkedList/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/set/SetTest.java" />
+        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/treeset/Item.java" />
+        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/treeset/TreeSetTest.java" />
       </list>
     </option>
   </component>
@@ -220,7 +227,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="set" />
+              <option name="myItemId" value="treeset" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,7 +257,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="linkedList" />
+              <option name="myItemId" value="set" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="starfucker_inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1ch13" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -307,7 +340,7 @@
       <recent name="$PROJECT_DIR$/src/com/starfucker_inc/v1ch04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SetTest">
+  <component name="RunManager" selected="Application.TreeSetTest">
     <configuration default="false" name="PairTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -316,26 +349,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.starfucker_inc.v1ch12.pair3.PairTest3" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CoreJava" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MultiArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.testing.just_testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.testing.just_testing.MultiArrays" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -396,6 +409,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.starfucker_inc.v1ch13.set.SetTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CoreJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TreeSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.starfucker_inc.v1ch13.treeset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.starfucker_inc.v1ch13.treeset.TreeSetTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -748,18 +781,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.PairTest3" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MultiArrays" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GenericReflectionTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LinkedListTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SetTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GenericReflectionTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LinkedListTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SetTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TreeSetTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SetTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LinkedListTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GenericReflectionTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PairTest3" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MultiArrays" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TreeSetTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SetTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LinkedListTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GenericReflectionTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PairTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -787,7 +820,7 @@
       <workItem from="1489405668605" duration="6714000" />
       <workItem from="1489412667936" duration="24998000" />
       <workItem from="1489647247115" duration="7927000" />
-      <workItem from="1490002722907" duration="34264000" />
+      <workItem from="1490002722907" duration="42063000" />
     </task>
     <task id="LOCAL-00001" summary="FirstSample &amp; Constants-1">
       <created>1488444438853</created>
@@ -1076,11 +1109,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490236177581</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="collectiontest-set test">
+      <created>1490252377723</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1490252377723</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229594000" />
+    <option name="totallyTimeSpent" value="237393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1189,7 +1229,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2017.03.11-4" />
     <MESSAGE value="2017.03.12-1" />
     <MESSAGE value="2017.03.12-2" />
     <MESSAGE value="2017.03.12-3" />
@@ -1214,11 +1253,12 @@
     <MESSAGE value="2017.03.16-generic/generic reflection test1" />
     <MESSAGE value="collectiontest-1-linklisttest" />
     <MESSAGE value="collectiontest-1-linklisttest1" />
-    <option name="LAST_COMMIT_MESSAGE" value="collectiontest-1-linklisttest1" />
+    <MESSAGE value="collectiontest-set test" />
+    <option name="LAST_COMMIT_MESSAGE" value="collectiontest-set test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="68" />
+      <option name="time" value="70" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1227,34 +1267,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch10/resource/about.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch10/resource/ResourceTest$1.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch10/resource/ResourceTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch10/resource/ResourceTestFrame.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch10/resource/ResourceTest.mf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1277,6 +1289,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1106">
           <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1305,6 +1320,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1340,6 +1358,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1347,6 +1366,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1556,14 +1576,14 @@
         <state relative-caret-position="-15">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="false" />
+            <element signature="e#570#571#0" expanded="false" />
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#634#635#0" expanded="false" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#774#775#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1573,7 +1593,7 @@
         <state relative-caret-position="150">
           <caret line="10" column="1" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="120" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1591,7 +1611,7 @@
         <state relative-caret-position="810">
           <caret line="54" column="6" lean-forward="false" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1600,6 +1620,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/CoreJavaBook/v1ch13/treeSet/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="60" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/set/SetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="33" column="94" lean-forward="false" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1616,10 +1665,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/set/SetTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/treeset/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="94" lean-forward="false" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
+        <state relative-caret-position="615">
+          <caret line="41" column="61" lean-forward="false" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+          <folding>
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch13/treeset/TreeSetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
