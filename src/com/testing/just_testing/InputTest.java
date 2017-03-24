@@ -16,5 +16,7 @@ public class InputTest
         System.out.printf("%tc\n", new Date());
         System.out.printf("%1$s %2$tB %2$te, %2$ty\n", "Due Date:", new Date());
         System.out.printf("%s %tB %<te, %<ty", "Due Date:", new Date());
+        System.out.println("My name is ");
+
     }
 }
