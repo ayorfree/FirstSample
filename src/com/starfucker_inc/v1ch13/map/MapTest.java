@@ -1,51 +1,62 @@
 package com.starfucker_inc.v1ch13.map;
 
-
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @version 3.24
- * @author ayorfree
- */
 public class MapTest
 {
     public static void main(String[] args)
     {
-        Map<String, Employee> staff = new HashMap<>();
-        staff.put("144-25-5464", new Employee("Amy Lee"));
-        staff.put("567-24-2546", new Employee("Harry Hacker"));
-        staff.put("157-62-7658", new Employee("Gary Cooper"));
-        staff.put("456-62-5527", new Employee("Franceca Cruz"));
+        Map<Price, Dog> dogs = new HashMap<>();
 
-        System.out.println(staff);
+        Price k = new Price("1800");
 
-        staff.remove("567-24-2546");
+        dogs.put(new Price("2000"), new Dog("博美"));
+        dogs.put(k, new Dog("松狮"));
+        dogs.put(new Price("2100"), new Dog("边牧"));
+        dogs.put(new Price("1300"), new Dog("泰迪"));
 
-        staff.put("456-62-5527", new Employee("Grorge linken"));
+        System.out.println(dogs);
 
-        System.out.println(staff.get("157-62-7658"));
+        dogs.remove(k);
 
-        for (Map.Entry< String, Employee > entry:
-        staff.entrySet()){
-            String key = entry.getKey();
-            Employee value = entry.getValue();
-            System.out.println("key=" + key + ", value=" + value);
+        dogs.put(new Price("3000"), new Dog("巴哥"));
+
+        for (Map.Entry<Price, Dog> entry :
+            dogs.entrySet()) {
+            Price price = entry.getKey();
+            Dog genre = entry.getValue();
+            System.out.println("price=" + price +", genre=" + genre);
         }
     }
 }
 
-class Employee
+class Dog
 {
-    private String name;
+    private String genre;
 
-    public Employee(String name)
+    public Dog(String genre)
     {
-        this.name = name;
+        this.genre = genre;
     }
 
     public String toString()
     {
-        return "[name=" + name +"]";
+        return "[genre=" + genre +"]";
+    }
+}
+
+class Price
+{
+    private String price;
+
+    public Price(String price)
+    {
+        this.price = price;
+    }
+
+    public String toString()
+    {
+        return "[price=" + price + "]";
     }
 }
