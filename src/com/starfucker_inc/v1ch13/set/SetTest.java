@@ -1,7 +1,5 @@
 package com.starfucker_inc.v1ch13.set;
 
-import com.starfucker_inc.v1ch10.systemInfo.SystemInfo;
-
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Scanner;
