@@ -1,14 +1,17 @@
 package com.starfucker_inc.v1ch14.bounce;
 
-import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
- * Shows an animated bouncing ball.
- * @version 1.33 2007-05-17
- * @author Cay Horstmann
+ * step3
+ *
+ * @author ayorfree
+ * @create 2017-03-27-下午3:02
  */
+
 public class Bounce
 {
     public static void main(String[] args)

@@ -1,12 +1,15 @@
 package com.starfucker_inc.v1ch14.bounce;
 
-import java.awt.geom.*;
+import java.awt.geom.Ellipse2D;
+import java.awt.geom.Rectangle2D;
 
 /**
- * A ball that moves and bounces off the edges of a rectangle
- * @version 1.33 2007-05-17
- * @author Cay Horstmann
+ * step1_ball
+ *
+ * @author ayorfree
+ * @create 2017-03-27-下午2:49
  */
+
 public class Ball
 {
     private static final int XSIZE = 15;
@@ -16,9 +19,6 @@ public class Ball
     private double dx = 1;
     private double dy = 1;
 
-    /**
-     * Moves the ball to the next position, reversing direction if it hits one of the edges
-     */
     public void move(Rectangle2D bounds)
     {
         x += dx;
@@ -53,3 +53,5 @@ public class Ball
         return new Ellipse2D.Double(x, y, XSIZE, YSIZE);
     }
 }
+
+

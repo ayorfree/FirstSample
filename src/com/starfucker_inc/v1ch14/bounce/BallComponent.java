@@ -1,14 +1,16 @@
 package com.starfucker_inc.v1ch14.bounce;
 
-import java.awt.*;
-import java.util.*;
 import javax.swing.*;
+import java.awt.*;
+import java.util.ArrayList;
 
 /**
- * The component that draws the balls.
- * @version 1.34 2012-01-26
- * @author Cay Horstmann
+ * step2_
+ *
+ * @author ayorfree
+ * @create 2017-03-27-下午2:56
  */
+
 public class BallComponent extends JPanel
 {
     private static final int DEFAULT_WIDTH = 450;
