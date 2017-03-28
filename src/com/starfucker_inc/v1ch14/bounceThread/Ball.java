@@ -5,7 +5,7 @@ import java.awt.geom.Rectangle2D;
 
 /**
  * @author ayorfree
- * @create 2017-03-28-上午10:28
+ * @create 2017-03-28-上午11:16
  */
 
 class Ball {
@@ -14,7 +14,7 @@ class Ball {
     private double x = 0;
     private double y = 0;
     private double dx = 1;
-    private double dy = 1 ;
+    private double dy = 1;
 
     public void move(Rectangle2D bounds)
     {

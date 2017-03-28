@@ -99,6 +99,7 @@ class BounceFrame extends JFrame
         }
         catch (InterruptedException e)
         {
+            e.printStackTrace();
         }
     }
 }

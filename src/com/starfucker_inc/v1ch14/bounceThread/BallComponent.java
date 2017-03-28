@@ -1,20 +1,22 @@
 package com.starfucker_inc.v1ch14.bounceThread;
 
+import com.sun.org.apache.bcel.internal.generic.RET;
+import sun.dc.pr.PRError;
+
 import javax.swing.*;
 import java.awt.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author ayorfree
- * @create 2017-03-28-上午10:34
+ * @create 2017-03-28-上午11:22
  */
 
-class BallComponent extends JComponent{
+class BallComponent extends JPanel
+{
     private static final int DEFAULT_WIDTH = 450;
     private static final int DEFAULT_HEIGHT = 350;
-
-    private List<Ball> balls = new ArrayList<>();
+    private java.util.List<Ball> balls = new ArrayList<>();
 
     public void add(Ball ball)
     {

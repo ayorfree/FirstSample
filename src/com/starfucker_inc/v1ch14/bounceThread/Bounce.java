@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 
 /**
  * @author ayorfree
- * @create 2017-03-28-上午10:40
+ * @create 2017-03-28-上午11:33
  */
 
 public class Bounce {
@@ -29,7 +29,7 @@ class BallRunnable implements Runnable
     private Ball ball;
     private Component component;
     private static final int STEPS = 1000;
-    private static final int DELAY = 3;
+    private static final int DELAY = 5;
 
     public BallRunnable(Ball ball, Component component)
     {
@@ -48,17 +48,18 @@ class BallRunnable implements Runnable
         }
         catch (InterruptedException e)
         {
+
         }
     }
 }
 
 class BounceFrame extends JFrame
 {
-    BallComponent comp;
+    private BallComponent comp;
 
     public BounceFrame()
     {
-        setTitle("BOOBOOBOO");
+        setTitle("Bounce and bounce");
         comp = new BallComponent();
         add(comp, BorderLayout.CENTER);
         JPanel buttonPanel = new JPanel();
@@ -94,4 +95,3 @@ class BounceFrame extends JFrame
         t.start();
     }
 }
-
