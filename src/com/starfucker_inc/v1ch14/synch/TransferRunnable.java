@@ -1,8 +1,8 @@
-package com.starfucker_inc.v1ch14.unsynch;
+package com.starfucker_inc.v1ch14.synch;
 
 /**
  * @author ayorfree
- * @create 2017-03-28-下午5:55
+ * @create 2017-03-28-下午8:53
  */
 
 public class TransferRunnable implements Runnable
@@ -26,7 +26,7 @@ public class TransferRunnable implements Runnable
             {
                 int toAcount = (int) (bank.size() * Math.random());
                 double amount = maxAmount * Math.random();
-                bank.transfer(fromAcount, toAcount, amount);
+                bank.transfer(fromAcount,toAcount, amount);
                 Thread.sleep((int) (DELAY * Math.random()));
             }
         }
