@@ -7,7 +7,6 @@ import java.awt.event.ActionListener;
 
 /**
  * for fun
- *
  * @author ayorfree
  * @create 2017-03-27-下午4:01
  */
