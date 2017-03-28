@@ -7,17 +7,16 @@ import java.awt.event.ActionListener;
 
 /**
  * @author ayorfree
- * @create 2017-03-28-上午9:46
+ * @create 2017-03-28-上午10:40
  */
 
-public class BallBounce {
+public class Bounce {
     public static void main(String[] args)
     {
         EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
                 JFrame frame = new BounceFrame();
-                frame.setTitle("Bounce");
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frame.setVisible(true);
             }
@@ -49,17 +48,17 @@ class BallRunnable implements Runnable
         }
         catch (InterruptedException e)
         {
-
         }
     }
 }
 
 class BounceFrame extends JFrame
 {
-    private BallComponent comp;
+    BallComponent comp;
 
     public BounceFrame()
     {
+        setTitle("BOOBOOBOO");
         comp = new BallComponent();
         add(comp, BorderLayout.CENTER);
         JPanel buttonPanel = new JPanel();
@@ -95,3 +94,4 @@ class BounceFrame extends JFrame
         t.start();
     }
 }
+
