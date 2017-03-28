@@ -7,17 +7,17 @@ import java.awt.event.ActionListener;
 
 /**
  * @author ayorfree
- * @create 2017-03-28-上午9:02
+ * @create 2017-03-28-上午9:46
  */
 
-public class Bounce {
+public class BallBounce {
     public static void main(String[] args)
     {
         EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
                 JFrame frame = new BounceFrame();
-                frame.setTitle("BallBounce");
+                frame.setTitle("Bounce");
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frame.setVisible(true);
             }
@@ -32,7 +32,7 @@ class BallRunnable implements Runnable
     private static final int STEPS = 1000;
     private static final int DELAY = 3;
 
-    public BallRunnable(Ball ball,Component component)
+    public BallRunnable(Ball ball, Component component)
     {
         this.ball = ball;
         this.component = component;
@@ -49,6 +49,7 @@ class BallRunnable implements Runnable
         }
         catch (InterruptedException e)
         {
+
         }
     }
 }
@@ -62,13 +63,13 @@ class BounceFrame extends JFrame
         comp = new BallComponent();
         add(comp, BorderLayout.CENTER);
         JPanel buttonPanel = new JPanel();
-        addButton(comp, "Start", new ActionListener() {
+        addButton(buttonPanel, "Start", new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 addBall();
             }
         });
-        addButton(comp, "Close", new ActionListener() {
+        addButton(buttonPanel, "Close", new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.exit(0);
@@ -80,7 +81,7 @@ class BounceFrame extends JFrame
 
     public void addButton(Container c, String title, ActionListener listener)
     {
-        JButton button= new JButton(title);
+        JButton button = new JButton(title);
         c.add(button);
         button.addActionListener(listener);
     }

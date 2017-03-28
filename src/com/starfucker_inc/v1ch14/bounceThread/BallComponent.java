@@ -4,15 +4,14 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 
-
 /**
  * @author ayorfree
- * @create 2017-03-28-上午8:54
+ * @create 2017-03-28-上午9:36
  */
 
-public class BallComponent extends JPanel{
+class BallComponent extends JPanel{
     private static final int DEFAULT_WIDTH = 450;
-    private static final int DEFAULT_HEIGHT = 350;
+    private static final int DEFAULT_HEIGHT =350;
 
     private java.util.List<Ball> balls = new ArrayList<>();
 
@@ -30,7 +29,6 @@ public class BallComponent extends JPanel{
             g2.fill(ball.getShape());
         }
     }
-
     public Dimension getPreferredSize()
     {
         return new Dimension(DEFAULT_WIDTH, DEFAULT_HEIGHT);

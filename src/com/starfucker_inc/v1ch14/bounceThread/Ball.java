@@ -5,10 +5,8 @@ import java.awt.geom.Ellipse2D;
 import java.awt.geom.Rectangle2D;
 
 /**
- * 测试多线程
- *
  * @author ayorfree
- * @create 2017-03-28-上午8:41
+ * @create 2017-03-28-上午9:28
  */
 
 class Ball {
@@ -23,6 +21,7 @@ class Ball {
     {
         x += dx;
         y += dy;
+
         if (x < bounds.getMinX())
         {
             x = bounds.getMinX();
@@ -33,7 +32,7 @@ class Ball {
             x = bounds.getMaxX() - XSIZE;
             dx = -dx;
         }
-        if (y < bounds.getMinY())
+        if (y < bounds.getMinX())
         {
             y = bounds.getMinY();
             dy = -dy;
@@ -47,6 +46,6 @@ class Ball {
 
     public Ellipse2D getShape()
     {
-        return new Ellipse2D.Double(x, y, XSIZE, YSIZE);
+    return new Ellipse2D.Double(x, y, XSIZE, YSIZE);
     }
 }
