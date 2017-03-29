@@ -2,15 +2,17 @@ package com.starfucker_inc.v1ch14.synch2;
 
 /**
  * @author ayorfree
- * @create 2017-03-29-上午11:08
+ * @create 2017-03-29-下午2:14
  */
 
-public class Bank {
+public class Bank
+{
     private final double[] accounts;
 
     public Bank(int n, double initialBalance)
     {
         accounts = new double[n];
+
         for (int i = 0; i < accounts.length; i++) {
             accounts[i] = initialBalance;
         }
