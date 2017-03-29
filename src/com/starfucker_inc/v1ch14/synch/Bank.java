@@ -6,57 +6,56 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author ayorfree
- * @create 2017-03-29-上午9:31
+ * @create 2017-03-29-上午10:02
  */
 
 class Bank
 {
     private final double[] acounts;
-    private Lock bankLock;
-    private Condition sufficientfunds;
+    private Lock banklock;
+    private Condition sufficientFunds;
 
-    public Bank(int n, double initial_balance)
+    public Bank(int n, double initialBalance)
     {
         acounts = new double[n];
         for (int i = 0; i < acounts.length; i++) {
-            acounts[i] = initial_balance;
+            acounts[i] = initialBalance;
+            banklock = new ReentrantLock();
+            sufficientFunds = banklock.newCondition();
         }
-        bankLock = new ReentrantLock();
-        sufficientfunds = bankLock.newCondition();
     }
 
     public void transfer(int from, int to, double amount) throws InterruptedException
     {
-        bankLock.lock();
+        banklock.lock();
         try {
             while (acounts[from] < amount)
-                sufficientfunds.await();
+                sufficientFunds.await();
             System.out.print(Thread.currentThread());
             acounts[from] -= amount;
-            System.out.printf("%10.2f is from %d to %d ", amount, from, to);
+            System.out.printf(" %10.2f is from %d to %d ", amount, from, to);
             acounts[to] += amount;
-            System.out.printf(" TotalBalance is %10.2f%n.", getTotalBalance());
-            sufficientfunds.signalAll();
+            System.out.printf(" TotalBalance is %10.2f%n ", getTotalBalance());
+            sufficientFunds.signalAll();
         }
         finally {
-            bankLock.unlock();
+            banklock.unlock();
         }
     }
 
     public double getTotalBalance()
     {
-        bankLock.lock();
+        banklock.lock();
         try {
             double sum = 0;
             for (double a :
                     acounts) {
                 sum += a;
-
             }
             return sum;
         }
         finally {
-            bankLock.unlock();
+            banklock.unlock();
         }
     }
 
