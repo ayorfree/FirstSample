@@ -12,7 +12,7 @@ public class SynchBank
 
     public static void main(String[] args)
     {
-        Bank bank = new Bank(NACOUNTS, INITIAL_AMOUNTS);
+        com.starfucker_inc.v1ch14.synch2.Bank bank = new com.starfucker_inc.v1ch14.synch2.Bank(NACOUNTS, INITIAL_AMOUNTS);
 
         for (int i = 0; i < bank.size(); i++) {
             TransferRunnable r = new TransferRunnable(bank, i, INITIAL_AMOUNTS);

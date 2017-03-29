@@ -7,12 +7,12 @@ package com.starfucker_inc.v1ch14.synch;
 
 public class TransferRunnable implements Runnable
 {
-    private Bank bank;
+    private com.starfucker_inc.v1ch14.synch2.Bank bank;
     private int fromAcount;
     private double maxAmount;
     private int DELAY = 10;
 
-    public TransferRunnable (Bank b, int afromAcount, double amaxAmount)
+    public TransferRunnable (com.starfucker_inc.v1ch14.synch2.Bank b, int afromAcount, double amaxAmount)
     {
         bank = b;
         fromAcount = afromAcount;
