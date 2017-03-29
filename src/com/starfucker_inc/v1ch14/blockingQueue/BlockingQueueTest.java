@@ -1,4 +1,4 @@
-package com.starfucker_inc.v1ch14.blockingQueue.test;
+package com.starfucker_inc.v1ch14.blockingQueue;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.util.concurrent.BlockingQueue;
 
 /**
  * @author ayorfree
- * @create 2017-03-29-下午4:58
+ * @create 2017-03-29-下午5:35
  */
 
 public class BlockingQueueTest
@@ -25,21 +25,23 @@ public class BlockingQueueTest
         final int SEARCH_THREADS = 100;
 
         BlockingQueue<File> queue = new ArrayBlockingQueue<>(QUEUE_SIZE);
-        EnumerationTask enumerator = new EnumerationTask(queue, new File(directory));
+
+        Enumeration enumerator = new Enumeration(queue, new File(directory));
         new Thread(enumerator).start();
-        for (int i = 1; i <= SEARCH_THREADS ; i++) {
+
+        for (int i = 1; i < SEARCH_THREADS; i++) {
             new Thread(new SearchTask(queue, keyword)).start();
         }
     }
 }
 
-class EnumerationTask implements Runnable
+class Enumeration implements Runnable
 {
     public static final File Dummy = new File("");
     private BlockingQueue<File> queue;
     private File startingDirectory;
 
-    public EnumerationTask(BlockingQueue queue, File startingDirectory)
+    public Enumeration(BlockingQueue<File> queue, File startingDirectory)
     {
         this.queue = queue;
         this.startingDirectory = startingDirectory;
@@ -61,7 +63,7 @@ class EnumerationTask implements Runnable
     {
         File[] files = directory.listFiles();
         for (File file :
-               files ) {
+                files) {
             if (file.isDirectory()) enumerator(file);
             else queue.put(file);
         }
@@ -84,22 +86,25 @@ class SearchTask implements Runnable
         try
         {
             boolean done = false;
-            while (!done) {
+            while (!done)
+            {
                 File file = queue.take();
-                if (file == EnumerationTask.Dummy) {
+                if (file == Enumeration.Dummy)
+                {
                     queue.put(file);
                     done = true;
-                } else search(file);
+                }
+                else search(file);
             }
         }
         catch (IOException e)
         {
             e.printStackTrace();
         }
+
         catch (InterruptedException e)
         {
         }
-
     }
 
     public void search(File file) throws IOException
@@ -112,7 +117,7 @@ class SearchTask implements Runnable
                 lineNumber++;
                 String line = in.nextLine();
                 if (line.contains(keyword))
-                System.out.printf("%s:%d:%s%n",file.getPath(), lineNumber, line);
+                    System.out.printf("%s:%d:%s%n", file.getPath(), lineNumber, line);
             }
         }
     }
