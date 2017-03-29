@@ -6,22 +6,23 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author ayorfree
- * @create 2017-03-28-下午8:41
+ * @create 2017-03-29-上午9:31
  */
 
-class Bank {
+class Bank
+{
     private final double[] acounts;
     private Lock bankLock;
-    private Condition sufficientFunds;
+    private Condition sufficientfunds;
 
-    public Bank(int n, double initialBalance)
+    public Bank(int n, double initial_balance)
     {
         acounts = new double[n];
         for (int i = 0; i < acounts.length; i++) {
-            acounts[i] = initialBalance;
-            bankLock = new ReentrantLock();
-            sufficientFunds = bankLock.newCondition();
+            acounts[i] = initial_balance;
         }
+        bankLock = new ReentrantLock();
+        sufficientfunds = bankLock.newCondition();
     }
 
     public void transfer(int from, int to, double amount) throws InterruptedException
@@ -29,28 +30,28 @@ class Bank {
         bankLock.lock();
         try {
             while (acounts[from] < amount)
-                sufficientFunds.await();
+                sufficientfunds.await();
             System.out.print(Thread.currentThread());
             acounts[from] -= amount;
-            System.out.printf(" %10.2f is from %d to %d", amount, from, to);
+            System.out.printf("%10.2f is from %d to %d ", amount, from, to);
             acounts[to] += amount;
-            System.out.printf(" TotalBalance is %10.2f%n.", getTotalBlance());
-            sufficientFunds.signalAll();
+            System.out.printf(" TotalBalance is %10.2f%n.", getTotalBalance());
+            sufficientfunds.signalAll();
         }
         finally {
             bankLock.unlock();
         }
     }
 
-    public double getTotalBlance()
+    public double getTotalBalance()
     {
         bankLock.lock();
         try {
             double sum = 0;
-
             for (double a :
-                acounts) {
+                    acounts) {
                 sum += a;
+
             }
             return sum;
         }
