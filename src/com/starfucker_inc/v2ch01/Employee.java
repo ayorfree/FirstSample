@@ -1,16 +1,17 @@
-package com.starfucker_inc.v2ch01.textFile;
+package com.starfucker_inc.v2ch01;
 
-import java.util.*;
+import java.util.Date;
+import java.util.GregorianCalendar;
 
-public class Employee
-{
+/**
+ * @author ayorfree
+ * @create 2017-04-01-下午6:57
+ */
+
+class Employee {
     private String name;
     private double salary;
     private Date hireDay;
-
-    public Employee()
-    {
-    }
 
     public Employee(String n, double s, int year, int month, int day)
     {
@@ -35,15 +36,9 @@ public class Employee
         return hireDay;
     }
 
-    public void raiseSalary(double byPercent)
-    {
-        double raise = salary * byPercent / 100;
-        salary += raise;
-    }
-
     public String toString()
     {
-        return getClass().getName() + "[name=" + name + ",salary=" + salary + ",hireDay=" + hireDay
-                + "]";
+        return getClass().getName() + "[name=" + getName() +
+                ", salary=" + getSalary() + ", hireDay= " + getHireDay();
     }
 }
