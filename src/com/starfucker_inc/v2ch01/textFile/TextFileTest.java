@@ -9,37 +9,36 @@ import java.util.Scanner;
 
 /**
  * @author ayorfree
- * @create 2017-04-01-下午2:44
+ * @create 2017-04-01-下午5:28
  */
 
 public class TextFileTest {
     public static void main(String[] args) throws IOException{
-        com.starfucker_inc.v2ch01.textFile.Employee[] staff = new com.starfucker_inc.v2ch01.textFile.Employee[3];
-        staff[0] = new com.starfucker_inc.v2ch01.textFile.Employee("Carl Cracker", 75000, 1987, 12, 15);
-        staff[1] = new com.starfucker_inc.v2ch01.textFile.Employee("Harry Hacker", 50000, 1989, 10, 1);
-        staff[2] = new com.starfucker_inc.v2ch01.textFile.Employee("Tony Tester", 40000, 1990, 3, 15);
+        Employee[] staff = new Employee[3];
+
+        staff[0] = new Employee("zhangsan", 80000, 1987, 3, 4);
+        staff[1] = new Employee("wangwu", 75000, 1986, 3, 4);
+        staff[2] = new Employee("lisi", 69000, 1990, 3, 2);
 
         try (PrintWriter out = new PrintWriter("employee.txt", "UTF-8")) {
             writeData(staff, out);
         }
 
-        try (Scanner in = new Scanner(new FileInputStream("employee.txt"), "UTF-8")) {
-            Employee[] newStaff = readData(in);
+        try (Scanner in = new Scanner(
+                new FileInputStream("employee.txt"), "UTF-8")){
+            Employee[] newstaff = readData(in);
             for (Employee e :
-                    newStaff) {
+                   newstaff )
                 System.out.println(e);
-            }
         }
     }
 
-    private static void writeData(Employee[] employees, PrintWriter out) throws IOException
-    {
+    private static void writeData(Employee[] employees, PrintWriter out) throws IOException {
         out.println(employees.length);
 
         for (Employee e :
-                employees) {
+                employees)
             writeEmployee(out, e);
-        }
     }
 
     private static Employee[] readData(Scanner in)
@@ -58,9 +57,8 @@ public class TextFileTest {
     {
         GregorianCalendar calendar = new GregorianCalendar();
         calendar.setTime(e.getHireDay());
-        out.println(e.getName() + "|" + e.getSalary() + "|" +
-                calendar.get(Calendar.YEAR) + "|" + (calendar.get(Calendar.MONTH) + 1) +
-                "|" + calendar.get(Calendar.DAY_OF_MONTH));
+        out.println(e.getName() + "|" + e.getSalary() + "|" + calendar.get(Calendar.YEAR) + "|" +
+                (calendar.get(Calendar.MONTH + 1)) + "|" + calendar.get(Calendar.DAY_OF_MONTH));
     }
 
     public static Employee readEmployee(Scanner in)
@@ -74,4 +72,6 @@ public class TextFileTest {
         int day = Integer.parseInt(tokens[4]);
         return new Employee(name, salary, year, month, day);
     }
+
+
 }
