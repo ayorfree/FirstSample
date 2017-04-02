@@ -6,22 +6,50 @@ import java.util.Scanner;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
+/**
+ * @author ayorfree
+ * @create 2017-04-02-下午6:45
+ */
+
+public class BlockingQueueTest {
+    private static final int QUEUE_SIZE = 10;
+    private static final int SEARCH_TIMES = 100;
+
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter your directory: ");
+        String directory = in.nextLine();
+        System.out.println("Enter your keyword: ");
+        String keyword = in.nextLine();
+
+        BlockingQueue<File> queue = new ArrayBlockingQueue<>(QUEUE_SIZE);
+        Enumeration enumerator = new Enumeration(queue, new File(directory));
+        Thread t = new Thread(enumerator);
+        t.start();
+        for (int i = 0; i < SEARCH_TIMES; i++) {
+            new Thread(new SearchTask(queue, keyword)).start();
+        }
+    }
+}
+
 class Enumeration implements Runnable
 {
     private BlockingQueue<File> queue;
-    private File startingDirectory;
+    private File startingdirectory;
     public static final File Dummy = new File("");
 
-    public Enumeration(BlockingQueue<File> queue, File startingDirectory)
+    public Enumeration(BlockingQueue<File> queue, File startingdirectory)
     {
         this.queue = queue;
-        this.startingDirectory = startingDirectory;
+        this.startingdirectory = startingdirectory;
     }
 
     public void run()
     {
         try {
-            enumerator(startingDirectory);
+            enumerator(startingdirectory);
             queue.put(Dummy);
         }
         catch (InterruptedException e)
@@ -29,18 +57,16 @@ class Enumeration implements Runnable
         }
     }
 
-    public void enumerator(File diectory) throws InterruptedException
+    public void enumerator(File directory) throws InterruptedException
     {
-        File[] files = diectory.listFiles();
+        File[] files = directory.listFiles();
         for (File file :
                 files) {
             if (file.isDirectory()) enumerator(file);
             else queue.put(file);
         }
     }
-
 }
-
 class SearchTask implements Runnable
 {
     private BlockingQueue<File> queue;
@@ -60,7 +86,10 @@ class SearchTask implements Runnable
             {
                 File file = queue.take();
                 if (file == Enumeration.Dummy)
+                {
+                    queue.put(file);
                     done = true;
+                }
                 else search(file);
             }
         }
@@ -75,41 +104,18 @@ class SearchTask implements Runnable
 
     public void search(File file) throws IOException
     {
-        try (Scanner in = new Scanner(file)){
+        try (Scanner in = new Scanner(file)) {
             int lineNumber = 0;
             while (in.hasNextLine())
             {
-                lineNumber++;
-                String line = in.nextLine();
-                if (line.contains("keyword"))
-                    System.out.printf("%s%d:%s%n", file.getPath(), lineNumber, line);
+               lineNumber++;
+               String line = in.nextLine();
+               if (line.contains(keyword))
+                   System.out.printf("%s:%d:%s%n", file.getPath(), lineNumber, line);
             }
         }
     }
+
 }
-
-public class BlockingQueueT
-{
-    private static final int QUEUE_SIZE = 10;
-    private static final int SEARCH_TIME = 100;
-
-    public static void main(String[] args)
-    {
-        Scanner in = new Scanner(System.in);
-        String directory = in.nextLine();
-        String keyword = in.nextLine();
-        BlockingQueue<File> queue = new ArrayBlockingQueue<>(QUEUE_SIZE);
-
-        Enumeration enumerator = new Enumeration(queue, new File(directory));
-        Thread t = new Thread(enumerator);
-        t.start();
-
-        for (int i = 1; i < SEARCH_TIME; i++) {
-            new Thread(new SearchTask(queue, keyword)).start();
-        }
-    }
-}
-
-
 
 

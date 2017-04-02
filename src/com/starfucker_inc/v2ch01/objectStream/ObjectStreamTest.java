@@ -11,27 +11,24 @@ public class ObjectStreamTest
 {
     public static void main(String[] args) throws IOException, ClassNotFoundException
     {
-        Employee lee = new Employee("lee", 40000, 1972, 3, 4);
-        Manager wang = new Manager("wang", 42000, 1976, 3 ,9);
-        Manager zhang = new Manager("zhang", 47000, 1970, 3, 8);
-
-        wang.setSecretary(lee);
-        zhang.setSecretary(lee);
+        Employee lee = new Employee("lee", 60000, 1987, 3, 4);
+        Manager alice = new Manager("alice", 65000, 1985, 4, 2);
+        Manager carl = new Manager("carl", 70000, 1985, 3, 4);
+        alice.setSecretary(lee);
+        carl.setSecretary(lee);
 
         Employee[] staff = new Employee[3];
         staff[0] = lee;
-        staff[1] = wang;
-        staff[2] = zhang;
+        staff[1] = alice;
+        staff[2] = carl;
 
-        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("pop.txt"))){
+        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("fuck.txt"))) {
             out.writeObject(staff);
         }
 
-        try (ObjectInputStream in = new ObjectInputStream(new FileInputStream("pop.txt"))){
+        try (ObjectInputStream in = new ObjectInputStream(new FileInputStream("fuck.txt"))) {
             Employee[] newStaff = (Employee[]) in.readObject();
-
             newStaff[0].raiseSalary(10);
-
             for (Employee e :
                     newStaff) {
                 System.out.println(e);
