@@ -1,14 +1,14 @@
-package com.starfucker_inc.v2ch01;
+package com.starfucker_inc.v2ch01.textFile;
 
 import java.util.Date;
 import java.util.GregorianCalendar;
 
 /**
  * @author ayorfree
- * @create 2017-04-01-下午6:57
+ * @create 2017-04-01-下午8:15
  */
 
-class Employee {
+public class Employee {
     private String name;
     private double salary;
     private Date hireDay;
@@ -17,7 +17,7 @@ class Employee {
     {
         name = n;
         salary = s;
-        GregorianCalendar calendar = new GregorianCalendar(year, month - 1, day);
+        GregorianCalendar calendar = new GregorianCalendar(year , month - 1, day);
         hireDay = calendar.getTime();
     }
 
@@ -39,6 +39,6 @@ class Employee {
     public String toString()
     {
         return getClass().getName() + "[name=" + getName() +
-                ", salary=" + getSalary() + ", hireDay= " + getHireDay();
+                ", salary=" + getSalary() + ", hireDay=" + getHireDay() + "]";
     }
 }
