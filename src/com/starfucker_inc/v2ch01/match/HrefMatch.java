@@ -1,8 +1,8 @@
 package com.starfucker_inc.v2ch01.match;
 
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
@@ -29,12 +29,20 @@ public class HrefMatch {
             String patternString = "<a\\s+href\\s*=\\s*(\"[^\"]*\"| [^\\s>]*)\\s*>";
             Pattern pattern = Pattern.compile(patternString, Pattern.CASE_INSENSITIVE);
             Matcher matcher = pattern.matcher(input);
+            ArrayList<String> matches = new ArrayList<>();
+            PrintWriter out = new PrintWriter("douban.txt", "UTF-8");
 
             while (matcher.find()){
                 int start = matcher.start();
                 int end = matcher.end();
                 String match = input.substring(start, end);
                 System.out.println(match);
+                matches.add(match);
+                for (String m :
+                        matches) {
+                    out.println(m);
+            }
+
             }
         }
         catch (IOException e)
@@ -47,3 +55,5 @@ public class HrefMatch {
         }
     }
 }
+
+
