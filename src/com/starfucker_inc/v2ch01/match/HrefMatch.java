@@ -31,16 +31,19 @@ public class HrefMatch {
             Matcher matcher = pattern.matcher(input);
             ArrayList<String> matches = new ArrayList<>();
             PrintWriter out = new PrintWriter("douban.txt", "UTF-8");
+            int n = 0;
 
             while (matcher.find()){
                 int start = matcher.start();
                 int end = matcher.end();
                 String match = input.substring(start, end);
+                n++;
                 System.out.println(match);
+                System.out.println(n);
                 matches.add(match);
                 for (String m :
                         matches) {
-                    out.println(m);
+                    out.println(m + n);
             }
 
             }
