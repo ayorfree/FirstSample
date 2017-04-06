@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7def1e0-36d5-4554-be0f-c4ec688a7517" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/w3c/html/h1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/w3c/001_简介.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/w3c/002_基本的 HTML 标签.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/w3c/003_HTML 元素.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/w3c/html/h1.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/just_testing/StringTest.class" afterPath="$PROJECT_DIR$/out/production/CoreJava/com/testing/just_testing/StringTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/testing/just_testing/StringTest.java" afterPath="$PROJECT_DIR$/src/com/testing/just_testing/StringTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +37,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="h1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/w3c/html/h1.html">
+      <file leaf-file-name="001_简介.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/w3c/001_简介.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="675">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="002_基本的 HTML 标签.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/w3c/002_基本的 HTML 标签.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="003_HTML 元素.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/w3c/003_HTML 元素.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -84,13 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch14/synch2.java" />
-        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch14/synch/TransferRunnable.java" />
-        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch14/synch/SynchBank.java" />
-        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch14/synch2/Bank.java" />
-        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch14/blockingQueue/BlockingQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch14/blockingQueue/yabq/BlockingQueueTest.java" />
-        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch14/blockingQueue/test/BlockingQueueTest.java" />
         <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch14/blockingQueue/BlockingQueueTest.java" />
         <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch14/future/FutureTest.java" />
         <option value="$PROJECT_DIR$/src/com/testing/threadPool/ThreadPoolTest.java" />
@@ -135,6 +150,13 @@
         <option value="$PROJECT_DIR$/src/com/testing/just_testing/String.java" />
         <option value="$PROJECT_DIR$/src/com/testing/just_testing/StringTest.java" />
         <option value="$PROJECT_DIR$/src/com/w3c/html/h1.html" />
+        <option value="$PROJECT_DIR$/src/com/w3c/html/h2.html" />
+        <option value="$PROJECT_DIR$/src/com/w3c/HTML系列教程/html/h2.html" />
+        <option value="$PROJECT_DIR$/src/com/w3c/HTML系列教程/html/001_HTML 简介.html" />
+        <option value="$PROJECT_DIR$/src/com/w3c/HTML系列教程/html/002_基本的 HTML 标签.html" />
+        <option value="$PROJECT_DIR$/src/com/w3c/html.html" />
+        <option value="$PROJECT_DIR$/src/com/w3c/002_基本的 HTML 标签.html" />
+        <option value="$PROJECT_DIR$/src/com/w3c/003_HTML 元素.html" />
       </list>
     </option>
   </component>
@@ -214,6 +236,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="w3c" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FirstSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -242,6 +304,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/w3c" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company" />
     </key>
@@ -959,14 +1024,7 @@
       <workItem from="1490682112980" duration="683000" />
       <workItem from="1490683433285" duration="8312000" />
       <workItem from="1490693748043" duration="34145000" />
-      <workItem from="1490918884808" duration="95556000" />
-    </task>
-    <task id="LOCAL-00036" summary="2017.03.16-generic/cc2">
-      <created>1490111552112</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1490111552112</updated>
+      <workItem from="1490918884808" duration="109472000" />
     </task>
     <task id="LOCAL-00037" summary="2017.03.16-generic/cc3">
       <created>1490145585639</created>
@@ -1304,11 +1362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491316955618</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="w3c html-1">
+      <created>1491363751932</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1491363751932</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="459654000" />
+    <option name="totallyTimeSpent" value="473570000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1390,7 +1455,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="synch test 3" />
     <MESSAGE value="synch test 4" />
     <MESSAGE value="synch test 5" />
     <MESSAGE value="synch test 6" />
@@ -1415,7 +1479,8 @@
     <MESSAGE value="regex test" />
     <MESSAGE value="regex test 2" />
     <MESSAGE value="regex test 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="regex test 3" />
+    <MESSAGE value="w3c html-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="w3c html-1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1431,56 +1496,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/CoreJavaBook/v2ch01/randomAccess/RandomAccessTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="80" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/CoreJavaBook/v2ch01/randomAccess/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="56" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v2ch01/textFile/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#540#541#0" expanded="false" />
-            <element signature="e#567#568#0" expanded="false" />
-            <element signature="e#604#605#0" expanded="false" />
-            <element signature="e#633#634#0" expanded="false" />
-            <element signature="e#669#670#0" expanded="false" />
-            <element signature="e#699#700#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/CoreJavaBook/v2ch01/zip/ZipTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/testing/blockingqueue/BlockingQueueT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1154">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v2ch01/textFile/TextFileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="611">
@@ -1865,10 +1880,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/w3c/html/h1.html">
+    <entry file="file://$PROJECT_DIR$/src/com/w3c/HTML系列教程/html/h2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/w3c/HTML系列教程/html/002_基本的 HTML 标签.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/w3c/HTML系列教程/html/001_HTML 简介.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/w3c/001_简介.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/w3c/002_基本的 HTML 标签.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/w3c/003_HTML 元素.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
           <folding />
         </state>
       </provider>
