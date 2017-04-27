@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7def1e0-36d5-4554-be0f-c4ec688a7517" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/testing/just_testing/Sleepwalkers.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/front_end/test/just.js" afterPath="$PROJECT_DIR$/src/com/front_end/test/just.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/testing/just_testing/Sleepwalkers.java" afterPath="$PROJECT_DIR$/src/com/testing/just_testing/Sleepwalkers.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +46,8 @@
       <file leaf-file-name="Sleepwalkers.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/testing/just_testing/Sleepwalkers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1126,14 +1125,7 @@
       <workItem from="1493175319474" duration="149000" />
       <workItem from="1493175499141" duration="1079000" />
       <workItem from="1493176598359" duration="33000" />
-      <workItem from="1493176634170" duration="3033000" />
-    </task>
-    <task id="LOCAL-00044" summary="collectiontest-priorityqueuetest">
-      <created>1490263565900</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1490263565900</updated>
+      <workItem from="1493176634170" duration="4953000" />
     </task>
     <task id="LOCAL-00045" summary="collectiontest-hashmaptest">
       <created>1490318920228</created>
@@ -1471,11 +1463,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491751317981</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="sleepwalkers">
+      <created>1493217525418</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1493217525419</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="523381000" />
+    <option name="totallyTimeSpent" value="525301000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1488,6 +1487,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.48051947" order="10" side_tool="false" content_ui="tabs" />
@@ -1504,7 +1504,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262519" sideWeight="0.4642857" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23133117" sideWeight="0.48596492" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23133117" sideWeight="0.48596492" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24918832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24918832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1556,7 +1556,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="threadpool test 1" />
     <MESSAGE value="forkjoin test 1" />
     <MESSAGE value="ballbounce test" />
     <MESSAGE value="synch test oo" />
@@ -1581,7 +1580,8 @@
     <MESSAGE value="css template collections" />
     <MESSAGE value="javascript tutorial 1" />
     <MESSAGE value="retirement revisited" />
-    <option name="LAST_COMMIT_MESSAGE" value="retirement revisited" />
+    <MESSAGE value="sleepwalkers" />
+    <option name="LAST_COMMIT_MESSAGE" value="sleepwalkers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1866,8 +1866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/testing/just_testing/Sleepwalkers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
