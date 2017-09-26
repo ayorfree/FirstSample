@@ -7,18 +7,19 @@ import java.util.Scanner;
  * This program demonstrates console input.
  * Created by zhangjiyun on 2017/3/6.
  */
+
 public class InputTest
 {
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("What's your name?");
+        System.out.print("What is your name?");
         String name = in.nextLine();
 
-        System.out.println("How old are you?");
+        System.out.print("How old are you?");
         int age = in.nextInt();
 
-        System.out.println("Hello, " + name + ". Next year, you'll be " + (age + 1));
+        System.out.println("Hello " + name +". next year you will be " + (age + 1));
     }
 }

@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7def1e0-36d5-4554-be0f-c4ec688a7517" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch02/ImageViewer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch02/Welcome.class" afterPath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch02/Welcome.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch03/FirstSample.class" afterPath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch03/FirstSample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/CompoundInterest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch03/CompoudInterest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/CompoudInterest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch03/InputTest.class" afterPath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch03/InputTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch02/Welcome.java" afterPath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch02/Welcome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/FirstSample.java" afterPath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/FirstSample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/testing/just_testing/Sleepwalkers.java" afterPath="$PROJECT_DIR$/src/com/testing/just_testing/Sleepwalkers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/InputTest.java" afterPath="$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/InputTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +36,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FirstSample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/FirstSample.java">
+      <file leaf-file-name="LotteryDrawing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/CoreJavaBook/v1ch03/LotteryDrawing/LotteryDrawing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LotteryArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/CoreJavaBook/v1ch03/LotteryArray/LotteryArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompoundInterest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/CoreJavaBook/v1ch03/CompoundInterest/CompoundInterest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompoundInterest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/CompoundInterest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -89,9 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v2ch01/objectStream/Manager.java" />
-        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v2ch01/serialClone/SerialCloneTest.java" />
-        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v2ch01/objectStream/ObjectStreamTest.java" />
         <option value="$PROJECT_DIR$/src/com/testing/kotlin/forfun.java" />
         <option value="$PROJECT_DIR$/src/com/testing/lootwatermelon/LootWatermelon.java" />
         <option value="$PROJECT_DIR$/dog.txt" />
@@ -140,6 +165,9 @@
         <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch02/ImageViewer.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
         <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/FirstSample.java" />
+        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/InputTest.java" />
+        <option value="$PROJECT_DIR$/src/com/testing/retirement/Retirement.java" />
+        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/CompoudInterest.java" />
       </list>
     </option>
   </component>
@@ -253,6 +281,13 @@
             </path>
             <path>
               <item name="FirstSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstSample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstSample" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -321,7 +356,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FirstSample">
+  <component name="RunManager" selected="Application.CompoundInterest">
+    <configuration name="CompoudInterest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.starfucker_inc.v1ch03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.starfucker_inc.v1ch03.CompoudInterest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CoreJava" />
+      <envs />
+    </configuration>
+    <configuration name="CompoundInterest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.starfucker_inc.v1ch03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.starfucker_inc.v1ch03.CompoundInterest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CoreJava" />
+      <envs />
+    </configuration>
+    <configuration name="FirstSample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="FirstSample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
     <configuration name="FirstSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -341,71 +428,14 @@
       <module name="CoreJava" />
       <envs />
     </configuration>
-    <configuration name="ImageViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="InputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.starfucker_inc.v1ch02.*" />
+          <option name="PATTERN" value="com.starfucker_inc.v1ch03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.starfucker_inc.v1ch02.ImageViewer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CoreJava" />
-      <envs />
-    </configuration>
-    <configuration name="LotteryOdds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.testing.just_testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.testing.just_testing.LotteryOdds" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CoreJava" />
-      <envs />
-    </configuration>
-    <configuration name="Sleepwalkers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.testing.just_testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.testing.just_testing.Sleepwalkers" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CoreJava" />
-      <envs />
-    </configuration>
-    <configuration name="Welcome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.starfucker_inc.v1ch02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.starfucker_inc.v1ch02.Welcome" />
+      <option name="MAIN_CLASS_NAME" value="com.starfucker_inc.v1ch03.InputTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -944,19 +974,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Sleepwalkers" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LotteryOdds" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Welcome" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ImageViewer" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FirstSample" />
+      <item index="0" class="java.lang.String" itemvalue="Application.FirstSample" />
+      <item index="1" class="java.lang.String" itemvalue="Application.InputTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FirstSample (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CompoudInterest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CompoundInterest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FirstSample" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Welcome" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ImageViewer" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LotteryOdds" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Sleepwalkers" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CompoundInterest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CompoudInterest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FirstSample (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InputTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FirstSample" />
       </list>
     </recent_temporary>
   </component>
@@ -1028,14 +1058,7 @@
       <workItem from="1505778402859" duration="1722000" />
       <workItem from="1505781402457" duration="993000" />
       <workItem from="1506405788482" duration="2554000" />
-      <workItem from="1506410965041" duration="820000" />
-    </task>
-    <task id="LOCAL-00046" summary="collectiontest-hashmaptest1">
-      <created>1490320671767</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1490320671767</updated>
+      <workItem from="1506410965041" duration="8446000" />
     </task>
     <task id="LOCAL-00047" summary="collectiontest-algorithm-sort/shuffle">
       <created>1490434132777</created>
@@ -1373,11 +1396,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493308037079</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="the real &amp; ture flow is comming">
+      <created>1506413281468</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1506413281471</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="532721000" />
+    <option name="totallyTimeSpent" value="540347000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1393,20 +1423,21 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.48051947" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.47727272" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262519" sideWeight="0.37256494" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29590288" sideWeight="0.5105519" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29590288" sideWeight="0.5137987" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29590288" sideWeight="0.48944804" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29590288" sideWeight="0.4862013" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31259483" sideWeight="0.45779222" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262519" sideWeight="0.4642857" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23133117" sideWeight="0.48596492" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.47402596" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24918832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24918832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1430,7 +1461,6 @@
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.49675325" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.49027553" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.47727272" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1459,7 +1489,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="ballbounce test" />
     <MESSAGE value="synch test oo" />
     <MESSAGE value="text i/o" />
     <MESSAGE value="text i/o -" />
@@ -1484,7 +1513,8 @@
     <MESSAGE value="retirement revisited" />
     <MESSAGE value="sleepwalkers" />
     <MESSAGE value="sleepwalkers-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="sleepwalkers-1" />
+    <MESSAGE value="the real &amp; ture flow is comming" />
+    <option name="LAST_COMMIT_MESSAGE" value="the real &amp; ture flow is comming" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1500,65 +1530,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/w3c/template/style.css" />
-    <entry file="file://$PROJECT_DIR$/src/com/w3c/template/base.css" />
-    <entry file="file://$PROJECT_DIR$/src/com/w3c/template/layout.css" />
-    <entry file="file://$PROJECT_DIR$/src/com/w3c/template/temp.html" />
-    <entry file="file://$PROJECT_DIR$/src/com/w3c/dd.html" />
-    <entry file="file://$PROJECT_DIR$/src/com/front_end/freshmade-software-website-template/empty_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/front_end/freshmade-software-website-template/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/front_end/simple-magazine-website-template/news-image-med-1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/front_end/simple-magazine-website-template/news-image-med-2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/front_end/simple-magazine-website-template/news-image-med-3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/front_end/simple-magazine-website-template/news-image-small-1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/front_end/simple-magazine-website-template/news-image-small-2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/front_end/simple-magazine-website-template/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/front_end/revelation/revelation.psd" />
-    <entry file="file://$PROJECT_DIR$/src/com/front_end/competitive-v2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/front_end/lunar/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
@@ -1713,13 +1684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/Retirement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v2ch01/regex/RegexTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -1789,7 +1753,7 @@
         <state relative-caret-position="270">
           <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1798,6 +1762,137 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/LotteryDrawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/testing/retirement/Retirement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="27" column="57" lean-forward="false" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/InputTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douban.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12416">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/Retirement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/BigIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/CoreJavaBook/v1ch03/FirstSample/FirstSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/CoreJavaBook/v1ch03/InputTest/InputTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/CoreJavaBook/v1ch03/Retirement/Retirement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/CoreJavaBook/v1ch03/Retirement2/Retirement2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/CoreJavaBook/v1ch03/BigIntegerTest/BigIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-155">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/CoreJavaBook/v1ch03/LotteryOdds/LotteryOdds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/CoreJavaBook/v1ch03/LotteryArray/LotteryArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/CoreJavaBook/v1ch03/LotteryDrawing/LotteryDrawing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/CoreJavaBook/v1ch03/CompoundInterest/CompoundInterest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v1ch03/CompoundInterest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
