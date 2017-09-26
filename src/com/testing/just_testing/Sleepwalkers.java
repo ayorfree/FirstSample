@@ -15,13 +15,13 @@ public class Sleepwalkers{
 
         switch (in.nextLine()){
             case "01":
-                System.out.println("foo");
+                System.out.println("谭帆峰");
                 break;
             case "02":
-                System.out.println("bar");
+                System.out.println("徐飞");
                 break;
             default:
-                System.out.println("chuiniubi");
+                System.out.println("其他人");
         }
     }
 }

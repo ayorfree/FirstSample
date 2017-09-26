@@ -7,14 +7,14 @@ public class Welcome
 {
     public static void main(String[] args)
     {
-        String[] s = new String[3];
-        s[0] = "Fuck me";
-        s[1] = " from";
-        s[2] = " behind.";
+        String[] greeting = new String[3];
+        greeting[0] = "小张铮";
+        greeting[1] = "回南京";
+        greeting[2] = "来上班";
 
-        for (String f :
-                s) {
-            System.out.print(f);
+        for (String g :
+               greeting) {
+            System.out.print(g);
         }
     }
 }
