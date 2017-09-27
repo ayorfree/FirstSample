@@ -16,8 +16,7 @@ public class MultiArrays
     }
 }
 
-class Manager extends Employee
-{
+class Manager {
     private double bonus;
 
     public Manager(String n)
