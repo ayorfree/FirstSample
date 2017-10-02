@@ -11,22 +11,19 @@ import javax.xml.parsers.*;
 import org.w3c.dom.*;
 import org.w3c.dom.CharacterData;
 
-
 /**
- * XML
- *
- * @author ayorfree
- * @create 2017-10-02-下午2:21
+ * This program displays an XML document as a tree.
+ * @version 1.12 2012-06-03
+ * @author Cay Horstmann
  */
-
 public class TreeViewer
 {
     public static void main(String[] args)
     {
         EventQueue.invokeLater(new Runnable()
         {
-            @Override
-            public void run() {
+            public void run()
+            {
                 JFrame frame = new DOMTreeFrame();
                 frame.setTitle("TreeViewer");
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -36,6 +33,9 @@ public class TreeViewer
     }
 }
 
+/**
+ * This frame contains a tree that displays the contents of an XML document.
+ */
 class DOMTreeFrame extends JFrame
 {
     private static final int DEFAULT_WIDTH = 400;
@@ -49,18 +49,20 @@ class DOMTreeFrame extends JFrame
 
         JMenu fileMenu = new JMenu("File");
         JMenuItem openItem = new JMenuItem("Open");
-        openItem.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+        openItem.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent event)
+            {
                 openFile();
             }
         });
         fileMenu.add(openItem);
 
         JMenuItem exitItem = new JMenuItem("Exit");
-        exitItem.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+        exitItem.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent event)
+            {
                 System.exit(0);
             }
         });
@@ -71,6 +73,9 @@ class DOMTreeFrame extends JFrame
         setJMenuBar(menuBar);
     }
 
+    /**
+     * Open a file and load the document.
+     */
     public void openFile()
     {
         JFileChooser chooser = new JFileChooser();
@@ -88,7 +93,6 @@ class DOMTreeFrame extends JFrame
                 return "XML files";
             }
         });
-
         int r = chooser.showOpenDialog(this);
         if (r != JFileChooser.APPROVE_OPTION) return;
         final File file = chooser.getSelectedFile();
@@ -123,12 +127,20 @@ class DOMTreeFrame extends JFrame
             }
         }.execute();
     }
+
 }
 
+/**
+ * This tree model describes the tree structure of an XML document.
+ */
 class DOMTreeModel implements TreeModel
 {
     private Document doc;
 
+    /**
+     * Constructs a document tree model.
+     * @param doc the document
+     */
     public DOMTreeModel(Document doc)
     {
         this.doc = doc;
@@ -157,9 +169,8 @@ class DOMTreeModel implements TreeModel
     {
         Node node = (Node) parent;
         NodeList list = node.getChildNodes();
-        for (int i = 0; i < list.getLength(); i++) {
+        for (int i = 0; i < list.getLength(); i++)
             if (getChild(node, i) == child) return i;
-        }
         return -1;
     }
 
@@ -172,15 +183,19 @@ class DOMTreeModel implements TreeModel
     {
     }
 
-    public void addTreeModelListener(TreeModelListener listener)
+    public void addTreeModelListener(TreeModelListener l)
     {
     }
 
-    public void removeTreeModelListener(TreeModelListener listener)
+    public void removeTreeModelListener(TreeModelListener l)
     {
     }
+
 }
 
+/**
+ * This class renders an XML node.
+ */
 class DOMTreeCellRenderer extends DefaultTreeCellRenderer
 {
     public Component getTreeCellRendererComponent(JTree tree, Object value, boolean selected,
@@ -200,20 +215,21 @@ class DOMTreeCellRenderer extends DefaultTreeCellRenderer
         JPanel panel = new JPanel();
         panel.add(new JLabel("Element: " + e.getTagName()));
         final NamedNodeMap map = e.getAttributes();
-        panel.add(new JTable(new AbstractTableModel() {
-            @Override
-            public int getRowCount() {
+        panel.add(new JTable(new AbstractTableModel()
+        {
+            public int getRowCount()
+            {
                 return map.getLength();
             }
 
-            @Override
-            public int getColumnCount() {
+            public int getColumnCount()
+            {
                 return 2;
             }
 
-            @Override
-            public Object getValueAt(int r, int c) {
-                return c == 0 ? map.item(r).getNodeName(): map.item(r).getNodeValue();
+            public Object getValueAt(int r, int c)
+            {
+                return c == 0 ? map.item(r).getNodeName() : map.item(r).getNodeValue();
             }
         }));
         return panel;
@@ -222,7 +238,8 @@ class DOMTreeCellRenderer extends DefaultTreeCellRenderer
     public static String characterString(CharacterData node)
     {
         StringBuilder builder = new StringBuilder(node.getData());
-        for (int i = 0; i < builder.length(); i++) {
+        for (int i = 0; i < builder.length(); i++)
+        {
             if (builder.charAt(i) == '\r')
             {
                 builder.replace(i, i + 1, "\\r");
