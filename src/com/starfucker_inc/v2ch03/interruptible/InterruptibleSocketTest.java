@@ -1,29 +1,26 @@
 package com.starfucker_inc.v2ch03.interruptible;
 
-import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.PrintWriter;
-import java.net.InetSocketAddress;
-import java.nio.channels.SocketChannel;
-import java.util.Scanner;
+import java.awt.event.*;
+import java.util.*;
 import java.net.*;
+import java.io.*;
+import java.nio.channels.*;
+import javax.swing.*;
 
 /**
+ * This program shows how to interrupt a socket channel.
  * @author ayorfree
- * @create 2017-10-04-上午10:49
+ * @version 1.03 2017-10-04
  */
-
 public class InterruptibleSocketTest
 {
-    public static void main(String[] arg)
+    public static void main(String[] args)
     {
-        EventQueue.invokeLater(new Runnable() {
-            @Override
-            public void run() {
+        EventQueue.invokeLater(new Runnable()
+        {
+            public void run()
+            {
                 JFrame frame = new InterruptibleSocketFrame();
                 frame.setTitle("InterruptibleSocketTest");
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -56,18 +53,21 @@ class InterruptibleSocketFrame extends JFrame
 
         interruptibleButton = new JButton("Interruptible");
         blockingButton = new JButton("Blocking");
+
         northPanel.add(interruptibleButton);
         northPanel.add(blockingButton);
 
-        interruptibleButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+        interruptibleButton.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent event)
+            {
                 interruptibleButton.setEnabled(false);
                 blockingButton.setEnabled(false);
                 cancelButton.setEnabled(true);
-                connectThread = new Thread(new Runnable() {
-                    @Override
-                    public void run() {
+                connectThread = new Thread(new Runnable()
+                {
+                    public void run()
+                    {
                         try
                         {
                             connectInterruptibly();
@@ -82,22 +82,24 @@ class InterruptibleSocketFrame extends JFrame
             }
         });
 
-        blockingButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+        blockingButton.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent event)
+            {
                 interruptibleButton.setEnabled(false);
                 blockingButton.setEnabled(false);
                 cancelButton.setEnabled(true);
-                connectThread = new Thread(new Runnable() {
-                    @Override
-                    public void run() {
+                connectThread = new Thread(new Runnable()
+                {
+                    public void run()
+                    {
                         try
                         {
                             connectBlocking();
                         }
                         catch (IOException e)
                         {
-                            messages.append("\nInterruptibleSocketTest.connectBlocking " + e);
+                            messages.append("\nInterruptibleSocketTest.connectBlocking: " + e);
                         }
                     }
                 });
@@ -108,9 +110,10 @@ class InterruptibleSocketFrame extends JFrame
         cancelButton = new JButton("Cancel");
         cancelButton.setEnabled(false);
         northPanel.add(cancelButton);
-        cancelButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+        cancelButton.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent event)
+            {
                 connectThread.interrupt();
                 cancelButton.setEnabled(false);
             }
@@ -121,16 +124,19 @@ class InterruptibleSocketFrame extends JFrame
         pack();
     }
 
+    /**
+     * Connects to the test server, using interruptible I/O
+     */
     public void connectInterruptibly() throws IOException
     {
         messages.append("Interruptible:\n");
         try (SocketChannel channel = SocketChannel.open(new InetSocketAddress
-                ("localhost", 8189)))
+                ("localhost", 8190)))
         {
             in = new Scanner(channel);
             while (!Thread.currentThread().isInterrupted())
             {
-                messages.append("Reading");
+                messages.append("Reading ");
                 if (in.hasNextLine())
                 {
                     String line = in.nextLine();
@@ -139,10 +145,12 @@ class InterruptibleSocketFrame extends JFrame
                 }
             }
         }
-        finally {
-            EventQueue.invokeLater(new Runnable() {
-                @Override
-                public void run() {
+        finally
+        {
+            EventQueue.invokeLater(new Runnable()
+            {
+                public void run()
+                {
                     messages.append("Channel closed\n");
                     interruptibleButton.setEnabled(true);
                     blockingButton.setEnabled(true);
@@ -151,15 +159,18 @@ class InterruptibleSocketFrame extends JFrame
         }
     }
 
+    /**
+     * Connects to the test server, using blocking I/O
+     */
     public void connectBlocking() throws IOException
     {
-        messages.append("Blocking\n");
-        try (Socket sock  = new Socket("localhost", 8189))
+        messages.append("Blocking:\n");
+        try (Socket sock = new Socket("localhost", 8190))
         {
             in = new Scanner(sock.getInputStream());
             while (!Thread.currentThread().isInterrupted())
             {
-                messages.append("Reading");
+                messages.append("Reading ");
                 if (in.hasNextLine())
                 {
                     String line = in.nextLine();
@@ -168,10 +179,12 @@ class InterruptibleSocketFrame extends JFrame
                 }
             }
         }
-        finally {
-            EventQueue.invokeLater(new Runnable() {
-                @Override
-                public void run() {
+        finally
+        {
+            EventQueue.invokeLater(new Runnable()
+            {
+                public void run()
+                {
                     messages.append("Socket closed\n");
                     interruptibleButton.setEnabled(true);
                     blockingButton.setEnabled(true);
@@ -180,12 +193,17 @@ class InterruptibleSocketFrame extends JFrame
         }
     }
 
+    /**
+     * A multithreaded server that listens to port 8189 and sends numbers to the client, simulating a
+     * hanging server after 10 numbers.
+     */
     class TestServer implements Runnable
     {
         public void run()
         {
-            try {
-                ServerSocket s = new ServerSocket(8180);
+            try
+            {
+                ServerSocket s = new ServerSocket(8190);
 
                 while (true)
                 {
@@ -197,16 +215,23 @@ class InterruptibleSocketFrame extends JFrame
             }
             catch (IOException e)
             {
-                messages.append("\nTestServer.run " + e);
+                messages.append("\nTestServer.run: " + e);
             }
         }
     }
 
+    /**
+     * This class handles the client input for one server socket connection.
+     */
     class TestServerHandler implements Runnable
     {
         private Socket incoming;
         private int counter;
 
+        /**
+         * Constructs a handler.
+         * @param i the incoming socket
+         */
         public TestServerHandler(Socket i)
         {
             incoming = i;
@@ -214,10 +239,12 @@ class InterruptibleSocketFrame extends JFrame
 
         public void run()
         {
-            try {
-                try {
+            try
+            {
+                try
+                {
                     OutputStream outStream = incoming.getOutputStream();
-                    PrintWriter out = new PrintWriter(outStream, true);
+                    PrintWriter out = new PrintWriter(outStream, true /* autoFlush */);
                     while (counter < 100)
                     {
                         counter++;
@@ -225,7 +252,8 @@ class InterruptibleSocketFrame extends JFrame
                         Thread.sleep(100);
                     }
                 }
-                finally {
+                finally
+                {
                     incoming.close();
                     messages.append("Closing server\n");
                 }
