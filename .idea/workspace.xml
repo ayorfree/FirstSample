@@ -2,7 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7def1e0-36d5-4554-be0f-c4ec688a7517" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/starfucker_inc/v2ch03/mail/MailTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/starfucker_inc/v2ch04/test/TestDB.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch02/Welcome.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch03/BigIntegerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch03/FirstSample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch03/InputTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch03/LotteryDrawing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch03/LotteryOdds.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch03/Retirement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch03/Retirement2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch04/CalendarTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch04/ConstructorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch04/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch04/EmployeeTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch04/ParamTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch04/StaticTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/abstractClasses/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/abstractClasses/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/abstractClasses/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/anonymousInnerClass/AnonymousInnerClassTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/anonymousInnerClass/TalkingClock$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/anonymousInnerClass/TalkingClock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/clone/CloneTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/clone/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/equals/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/inheritance/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/innerClass/TalkingClock$TimePrinter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/innerClass/TalkingClock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/innerClass/innerClass.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/interfaces/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/objectAnalyzer/ObjectAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/objectAnalyzer/ObjectAnalyzerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/reflection/ReflectionTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/staticInnerClass/ArrayAlg$Pair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/staticInnerClass/ArrayAlg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/staticInnerClass/StaticInnerClassTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/timer/TimerPrinter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch05/timer/TimerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch10/preference/PreferencesFrame$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch10/preference/PreferencesFrame$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch10/preference/PreferencesFrame$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch10/preference/PreferencesFrame$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch10/preference/PreferencesFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch10/preference/PreferencesTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch10/preference/PreferencesTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch10/resource/ResourceTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch10/resource/ResourceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch10/resource/ResourceTestFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch10/systemInfo/SystemInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch11/StackTraceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch11/logging/ImageViewerFrame$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch11/logging/ImageViewerFrame$FileOpenListener$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch11/logging/ImageViewerFrame$FileOpenListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch11/logging/ImageViewerFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch11/logging/LoggingImageViewer$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch11/logging/LoggingImageViewer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch11/logging/WindowHandler$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch11/logging/WindowHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch12/pair1/ArraysAlg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch12/pair1/Pair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch12/pair1/PairTest1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch12/pair2/ArrayAlg.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch12/pair2/Pair.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch12/pair2/PairTest2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch12/pair4/GenericReflectionTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch13/linkedList/LinkedListTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch13/map/Dog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch13/map/MapTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch13/map/Price.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch13/priorityQueue/Dog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch13/priorityQueue/PriorityQueueTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch13/priorityQueue/PriorityQueueTest2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch13/priorityQueue/PriorityQueueTest2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch13/set/SetTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch13/treeset/Item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch13/treeset/TreeSetTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/starfucker_inc/v1ch13/treeset/TreeSetTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/ReflectionTest_/ReflectionTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/abstract_t/Abstract_t.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/abstract_t/AutoMover.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/abstract_t/Board.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/abstract_t/Microscope.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/abstract_t/Move.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/abstract_t/Mover.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/abstract_t/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/abstract_t/Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/abstract_t/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/abstract_t/Teacher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/abstract_t/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/inheritance_t/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/inheritance_t/Manager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/inheritance_t/ManagerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/just_testing/InputTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/just_testing/JustTesting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/just_testing/LotteryOdds.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/just_testing/LotteryOddsDrawing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/just_testing/PropertiesFrame$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/just_testing/PropertiesFrame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/just_testing/PropertiesTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/just_testing/PropertiesTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/just_testing/Retirement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/just_testing/Retirement2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/just_testing/StringTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/just_testing/SwitchTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/objectAnalyzer/ObjectAnalyzer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/objectAnalyzer/ObjectAnalyzerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/proxy_demo/Proxy.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/proxy_demo/ProxyDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/proxy_demo/RealSubject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/CoreJava/com/testing/proxy_demo/Subject.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,13 +142,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MailTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MailTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v2ch03/mail/MailTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-146">
-              <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+            <state relative-caret-position="387">
+              <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestDB.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v2ch04/test/TestDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" column="68" lean-forward="false" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1507515401224" expanded="true" signature="771:812" ph="CREATE TABLE... Greetings" />
+                <marker date="1507515401224" expanded="true" signature="848:894" ph="INSERT INTO Greetings... " />
+                <marker date="1507515401224" expanded="true" signature="954:977" ph="SELECT * FRO... Greetings" />
+                <marker date="1507515401224" expanded="true" signature="1124:1144" ph="DROP TABLE G... " />
               </folding>
             </state>
           </provider>
@@ -91,7 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/w3c/HTML系列教程/html/001_HTML 简介.html" />
         <option value="$PROJECT_DIR$/src/com/w3c/HTML系列教程/html/002_基本的 HTML 标签.html" />
         <option value="$PROJECT_DIR$/src/com/w3c/html.html" />
         <option value="$PROJECT_DIR$/src/com/w3c/002_基本的 HTML 标签.html" />
@@ -142,6 +265,7 @@
         <option value="$PROJECT_DIR$/src/com/starfucker_inc/v2ch03/urlConnection/URLConnectionTest.java" />
         <option value="$PROJECT_DIR$/src/com/starfucker_inc/v2ch03/post/PostTest.java" />
         <option value="$PROJECT_DIR$/src/com/starfucker_inc/v2ch03/mail/MailTest.java" />
+        <option value="$PROJECT_DIR$/src/com/starfucker_inc/v2ch04/test/TestDB.java" />
       </list>
     </option>
   </component>
@@ -254,7 +378,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="starfucker_inc" type="462c0819:PsiDirectoryNode" />
-              <item name="v2ch03" type="462c0819:PsiDirectoryNode" />
+              <item name="v2ch04" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstSample" type="b2602c69:ProjectViewProjectNode" />
@@ -266,8 +390,8 @@
       </pane>
       <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1036,14 +1160,8 @@
       <workItem from="1506905064194" duration="6615000" />
       <workItem from="1506997272879" duration="2472000" />
       <workItem from="1507075607706" duration="12693000" />
-      <workItem from="1507169270549" duration="7046000" />
-    </task>
-    <task id="LOCAL-00061" summary="synch test 4">
-      <created>1490752833244</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1490752833244</updated>
+      <workItem from="1507169270549" duration="7836000" />
+      <workItem from="1507514633805" duration="772000" />
     </task>
     <task id="LOCAL-00062" summary="synch test 5">
       <created>1490754367294</created>
@@ -1381,11 +1499,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507188585785</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="net_test_mail">
+      <created>1507190245627</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1507190245627</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="574386000" />
+    <option name="totallyTimeSpent" value="575948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1402,13 +1527,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.47727272" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262519" sideWeight="0.3482143" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29590288" sideWeight="0.5819805" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29590288" sideWeight="0.41801947" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29590288" sideWeight="0.41801947" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31259483" sideWeight="0.45779222" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262519" sideWeight="0.46103895" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1434,6 +1558,7 @@
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262519" sideWeight="0.3482143" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.49675325" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
@@ -1467,7 +1592,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="regex test 3" />
     <MESSAGE value="w3c html-1" />
     <MESSAGE value="w3c html-2" />
     <MESSAGE value="concurrency test" />
@@ -1492,7 +1616,8 @@
     <MESSAGE value="net_test_interruptible_1" />
     <MESSAGE value="net_test_urlconnection" />
     <MESSAGE value="net_test_post" />
-    <option name="LAST_COMMIT_MESSAGE" value="net_test_post" />
+    <MESSAGE value="net_test_mail" />
+    <option name="LAST_COMMIT_MESSAGE" value="net_test_mail" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1508,13 +1633,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/testing/just_testing/Switch2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/testing/just_testing/Sleepwalkers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1720,7 +1838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1770,9 +1887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
           <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1780,9 +1894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1790,11 +1901,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1802,7 +1908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-530">
           <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1810,7 +1915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1818,9 +1922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2158">
           <caret line="192" column="9" lean-forward="true" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1828,9 +1929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="58" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1838,9 +1936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1848,16 +1943,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-36">
           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v2ch03/mail/MailTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        <state relative-caret-position="387">
+          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/starfucker_inc/v2ch04/test/TestDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="68" lean-forward="false" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1507515401224" expanded="true" signature="771:812" ph="CREATE TABLE... Greetings" />
+            <marker date="1507515401224" expanded="true" signature="848:894" ph="INSERT INTO Greetings... " />
+            <marker date="1507515401224" expanded="true" signature="954:977" ph="SELECT * FRO... Greetings" />
+            <marker date="1507515401224" expanded="true" signature="1124:1144" ph="DROP TABLE G... " />
           </folding>
         </state>
       </provider>
