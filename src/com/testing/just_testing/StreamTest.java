@@ -1,7 +1,11 @@
 package com.testing.just_testing;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
@@ -18,11 +22,20 @@ public class StreamTest {
         list.add("psychic tv");
 
         Stream<String> words = list.stream();
-        Stream<String> longwords = words.filter(w -> w.length() > 3);
-        String[] results = longwords.toArray(String[] ::new);
-        for (String s :
-                results) {
-            System.out.println(s);
+        Stream<Character> longwords = words.filter(w -> w.length() > 3).map(s -> s.charAt(0));
+        longwords.forEach(System.out::println);
+
+        Stream<Double> echo = Stream.generate(Math::random).limit(20).map(x -> x*3);
+        echo.forEach(System.out::println);
+    }
+
+    public static Stream<Character> characterStream(String s) {
+        List<Character> list = new ArrayList<>();
+
+        for (char c :
+                s.toCharArray()) {
+            list.add(c);
         }
+        return list.stream();
     }
 }
