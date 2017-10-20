@@ -47,7 +47,7 @@ public class Juices {
         }
     }
 
-    public Juices(Builder builder) {
+    private Juices(Builder builder) {
         apple = builder.apple;
         orange = builder.orange;
         peal = builder.peal;
